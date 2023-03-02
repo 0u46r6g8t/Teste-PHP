@@ -1,0 +1,15 @@
+{
+    "description": "Sistema web de cadastros de cardapios e outros serviços",
+    "config":{
+        "vendor-dir": "vendor"
+    },
+    "autoload": {
+        "psr-4": {
+            "core\\": "core/",
+            "source\\": "source/"
+        }
+    },
+    "require": {
+        "zircote/swagger-php": "*"
+    }
+}
